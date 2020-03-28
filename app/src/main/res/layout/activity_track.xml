@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".track_Activity" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_margin="10sp"
+        android:layout_weight="4">
+
+        <RelativeLayout
+            android:id="@+id/start1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/start"
+            android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/Start1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Track"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iv1"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/date"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/Btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iv2"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/getmap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/map"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/Getmap1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Map"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iv3"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/near1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/location"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/Near1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Near By"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iv4"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
