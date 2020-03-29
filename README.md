@@ -23,3 +23,6 @@ An android project which tracks user's path from source to destination in offlin
 1) Use your secret API key at  Track-Your-Path/app/src/main/java/com/example/trackyourpath/Nearby_Activity.java  file.
 2) Use your secret API key at  Track-Your-Path/app/src/release/res/values/google_maps_api.xml  file.
 
+# Contribute
+If you want to add a feature or correct a bug, you can send me a pull request. I will be happy to review and merge them.
+
