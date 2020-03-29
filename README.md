@@ -1,12 +1,5 @@
-# Created By: Divyesh Rabadiya
-# Track-Your-Path
-Description:
-An android project which tracks user's path from source to destination in offline mode(GPS) and plot it into map datewise along with feature like user can find a nearby restaurants within 4km radius from chosen coordinate.
-
-#if you use this code then keep in mind to change following 2 lines:
-1) Use your secret API key at  Track-Your-Path/app/src/main/java/com/example/trackyourpath/Nearby_Activity.java  file.
-2) Use your secret API key at  Track-Your-Path/app/src/release/res/values/google_maps_api.xml  file.
-
+# Developer: Divyesh Rabadiya
+# Project: Track-Your-Path
 # Screenshots
 
 ![first1](https://user-images.githubusercontent.com/37362899/77854749-b844a500-7209-11ea-9108-9bc0135db9ae.jpg)
@@ -22,4 +15,11 @@ An android project which tracks user's path from source to destination in offlin
 
 
 ![fifth1](https://user-images.githubusercontent.com/37362899/77854844-4ae54400-720a-11ea-9cd9-e5c5f70b2df7.jpg)
+
+# Description:
+An android project which tracks user's path from source to destination in offline mode(GPS) and plot it into map datewise along with feature like user can find a nearby restaurants within 4km radius from chosen coordinate.
+
+-> if you use this code then keep in mind to change following 2 lines:
+1) Use your secret API key at  Track-Your-Path/app/src/main/java/com/example/trackyourpath/Nearby_Activity.java  file.
+2) Use your secret API key at  Track-Your-Path/app/src/release/res/values/google_maps_api.xml  file.
 
