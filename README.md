@@ -26,3 +26,6 @@ An android project which tracks user's path from source to destination in offlin
 # Contribute
 If you want to add a feature or correct a bug, you can send me a pull request. I will be happy to review and merge them.
 
+# License
+Please read <a href="https://github.com/divyeshrabadiya07/Track-Your-Path/blob/master/LICENSE">LICENSE</a>  for more detail.
+
