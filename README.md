@@ -1,5 +1,5 @@
-# Developer: Divyesh Rabadiya
-# Project: Track-Your-Path
+# Track-Your-Path
+An Android App
 # Screenshots
 
 ![first1](https://user-images.githubusercontent.com/37362899/77854749-b844a500-7209-11ea-9108-9bc0135db9ae.jpg)
